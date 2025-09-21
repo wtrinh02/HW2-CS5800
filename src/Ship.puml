@@ -14,14 +14,14 @@
 +class CargoShip{
     - cargoCapacityInTonnage: int
     + getCargoCapacityInTonnage(): int
-    + setCargoCapacityInTonnage(in cargoCapacityInTonnage= int):void
+    + setCargoCapacityInTonnage(in cargoCapacityInTonnage: int):void
     + toString(): String
 }
 
 +class CruiseShip{
         - maxNumberPassengers: int
         + getMaxNumberPassengers(): int
-        + setMaxNumberPassengers(in maxNumberPassengers= int):void
+        + setMaxNumberPassengers(in maxNumberPassengers: int):void
         + toString(): String
 }
 
